@@ -1,0 +1,207 @@
+body {
+  margin:0;
+  font-family: 'Poppins', sans-serif;
+  background-image: url(../images/bg-intro-mobile.png);
+  background-color: hsl(0, 100%, 74%);
+}
+  
+
+h2{
+ /* border: 1px solid black;*/
+  margin-top: 3.1em;
+  color: white;
+  font-size: 28px;
+  text-align: center;
+  line-height: 40px;
+}
+
+.text {
+ /* border: 1px solid blue;*/
+  color: white;
+  text-align: center;
+  font-size: 16px;
+  line-height: 26px;
+  margin: 0 1.5em 0 1.5em;
+}
+
+.wrapper-dos {
+  margin-top: 62px;
+ /* border: 1px solid yellow;*/
+  display: flex;
+  justify-content: center;
+
+}
+
+.card {
+  justify-content: center;
+  background-color: hsl(248, 32%, 49%);
+  border-radius: 10px;
+  height: 5.5em;
+  width: 20.2em;
+  box-shadow: 0 7px 0 hsla(249, 10%, 26%, 0.199);
+}
+
+.card-text {
+  /*border: 1px solid red;*/
+  margin-top: 17px;
+  color: white;
+  text-align: center;
+  padding: 0px 50px 0px 50px;
+  line-height: 25px;
+  cursor: pointer;
+}
+
+.form {
+  /*border: 1px solid black;*/
+  text-align: center;
+  padding-top: 18px;
+  margin-top: 45px;
+  background-color: white;
+  border-radius: 10px;
+  width: 23em;
+  height: 31.5em;
+  box-shadow: 0 8px 0 hsla(249, 10%, 26%, 0.199);
+  margin-bottom: 75px;
+  color: hsl(246, 25%, 77%);
+  font-size: 14px;
+  text-align: center;
+}
+
+.button {
+  margin-top: 5px;
+  border-radius: 5px;
+  background-color: hsl(154, 59%, 51%);
+  color: white;
+  outline: none;
+  cursor: pointer;
+  height: 48px;
+  width: 87%;
+  border: none;
+  box-shadow: 0 3px 0 hsla(249, 10%, 26%, 0.589);
+  font-weight: 600;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+
+.fields-text {
+  font-weight: bold;
+  font-family: 'Poppins', sans-serif;
+  color: hsla(249, 10%, 26%, 0.671);
+  height: 50px;
+  width: 85%;
+  margin: 5px 5px 5px 5px;
+  border: 1px solid hsl(246, 25%, 77%);
+  border-radius: 5px;
+  text-indent: 2em;
+}
+
+.terms {
+  /*border: 1px solid black;*/
+  font-size: 10px;
+  margin: 15px 50px 0 50px;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+.field-error {
+  border: 2px solid red;
+  background-image: url(../images/icon-error.svg);
+  background-repeat: no-repeat;
+  background-position-x: 17.5em;
+  background-position-y: 1em;
+}
+
+.error {
+  margin-top: 0px;
+  padding-right: 3.8em;
+  font-weight: 500;
+  font-size: 10px;
+  color: red;
+  font-style: italic;
+  text-align: right;
+}
+
+.cardError {
+  margin-top: -35px;
+}
+
+.formError {
+  height: 35em;
+}
+
+.buttonError {
+  background-color: hsla(154, 59%, 51%, 0.616);
+  box-shadow: 0 3px 0 hsl(154, 59%, 51%);
+}
+
+@media screen and (min-width: 1440px) {
+
+body {
+  background-image: url(../images/bg-intro-desktop.png);
+  background-color: hsl(0, 100%, 74%);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  
+}  
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+ 
+}
+
+ .card {
+   width: 85%; 
+   height: 3.5em;
+   margin-left: -3em;
+}
+
+.form {
+  width: 100%;
+  margin-top: 35px;
+  padding-top: 2.3em;
+  height: 30em;
+
+}
+
+.wrapper-dos {
+  padding-top: 50px;
+  padding-right: 140px;
+}
+
+.wrapper {
+  margin-top: 120px;
+  
+}
+
+h2 {
+  font-size: 3em;
+  line-height: 1.2em;
+  font-weight: 700;
+  padding-left: 1.3em;
+ }
+
+ .text {
+   margin-top: -0.9em;
+   padding-left: 11.7em;
+   text-align: left;
+ }
+
+ .formError {
+  height: 35em;
+}
+.field-error {
+  border: 2px solid red;
+  background-image: url(../images/icon-error.svg);
+  background-repeat: no-repeat;
+  background-position-x: 31em;
+  background-position-y: 1em;
+}
+.buttonError {
+  background-color: hsla(154, 59%, 51%, 0.616);
+  box-shadow: 0 3px 0 hsl(154, 59%, 51%);
+}
+
+}
