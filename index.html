@@ -6,7 +6,7 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="css/estilos.css">
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;350;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
   
   <title>Frontend | Sign up form</title>
 
@@ -22,17 +22,17 @@
       <div class="wrapper-dos">
         <div class="card" id="tarjeta">
           <p class="card-text"><span style="font-weight: 600;">
-          Try it free 7 days</span> <span style="font-weight: 350;">then $20/mo. thereafter</span>
+          Try it free 7 days</span> <span style="font-weight: 400;">then $20/mo. thereafter</span>
           </p>
             <div class="form" id='formulario'>
               <form novalidate class="fields">
-                <input type="text" placeholder="First Name" id="name" required class="fields-text">
+                <input type="text" placeholder="First Name" id="name" required class="fields-text" aria-label="firstName">
                 <p class="error" aria-live="polite"></p>
-                <input type="text" placeholder="Last Name" id="last" required class="fields-text">
+                <input type="text" placeholder="Last Name" id="last" required class="fields-text" aria-label="lastName">
                 <p class="error" aria-live="polite"></p>
-                <input type="email" placeholder="Email Address" id="mail" required class="fields-text">
+                <input type="email" placeholder="Email Address" id="mail" required class="fields-text" aria-label="email">
                 <p class="error" aria-live="polite"></p>
-                <input type="password" placeholder="Password" id="password" required class="fields-text">
+                <input type="password" placeholder="Password" id="password" required class="fields-text" aria-label="password">
                 <p class="error" aria-live="polite"></p>
                 <input type="submit" value="CLAIM YOUR FREE TRIAL" class="button" id="boton">
                 <p class="terms">By clicking the button, you are agreeing to our <span style="color: red; font-weight: 600;">Terms and Services</span></p>
